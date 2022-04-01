@@ -1,0 +1,59 @@
+.width-full {
+    width: 100%;
+}
+.width-half {
+    width: 49%;
+    float: left;
+}
+
+.btn-bag {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ff3e6c;
+    border: 1px solid #ff3e6c;
+    color: #fff;
+}
+
+.btn-wishlist {
+    text-align: center;
+    padding: 15px 10px;
+    margin: 0px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid;
+    float: left;
+    width: 45%;
+}
+
+.size-span{
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 5rem;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+.size-span:hover{
+    border: 1px solid red;
+}
+
+.offer{
+    color: #ff905a;
+}
+.price{
+    font-weight: 500;
+    font-size: 25px;
+}
+.span-padding{
+    padding: 0px 10px 0px 0px;
+}
+.tax-content{
+    color: #03a685;
+}

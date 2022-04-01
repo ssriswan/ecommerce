@@ -1,0 +1,157 @@
+.App {
+  margin-top: 10px;
+}
+.logo {
+  float: left;
+}
+.left {
+  border: 1px solid #e9e9ed;
+  /* outline: 1px solid blue;
+  outline-offset:-10px;    */
+  padding: 0px 10px;
+  float: left;
+  width: 15%;
+  /* text-align: center; */
+  /* background-clip: content-box; */
+}
+
+.main {
+  /* outline: 1px solid red; */
+  outline-offset:-10px;   
+  /* border: 1px solid red; */
+  padding: 0px 10px;
+  float: left;
+  width: 80%;
+  /* background-clip: content-box; */
+}
+
+.pcard {
+  width: 20%;
+  display: inline-block;
+}
+
+.product-header{
+  text-align: right;
+}
+.product-sort{
+  padding: 10px;
+  float: right;
+}
+.product-sort label, .product-sort select {
+  padding: 0px 10px;
+}
+.product-search{
+  padding: 10px;
+}
+.product-search label, select, .product-search input {
+  padding: 0px 10px;
+  width: 250px;
+}
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width: 600px) {
+  .left, .main {
+      width: 100%;
+      /* padding: 5px 5px; */
+      /* The width is 100%, when the viewport is 600px or smaller */
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .pcard {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pcard {
+    width: 33%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .pcard {
+    width: 25%;
+  }
+} */
+
+
+/*  */
+@media only screen 
+and (min-device-width : 250px){
+/* Styles */
+.pcard {
+  width: 100%;
+}
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+.pcard {
+  width: 50%;
+}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+.pcard {
+  width: 33%;
+}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+.pcard {
+  width: 20%;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+.pcard {
+  width: 50%;
+}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+/*  */

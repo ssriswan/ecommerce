@@ -1,0 +1,33 @@
+.header-div {
+    float: right;
+    text-align: center;
+    padding: 5px;
+  }
+  .header-icon-wishlist {
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    display: inline-block;
+    background-position: -315px -187px;
+  
+    width: 17px;
+    height: 22px;
+  }
+  
+  .header-icon-cart {
+    background: url(https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png);
+    background-size: 1404px 105px;
+    display: inline-block;
+  
+    width: 22px;
+    height: 22px;
+    background-position: -341px -56px;
+  }
+  
+  .header-icon-text{
+    display: block;
+  }
+  
+  .header-comp {
+    padding-right: 5%;
+    height: 60px;
+  }
